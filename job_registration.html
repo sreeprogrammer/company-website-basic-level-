@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Job Registration Form</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        background-color: lightpink;
+        text-align: center;
+        margin: 0px 0, 0px 0;
+        text-decoration: underline;
+    }
+    form{
+        background-color: floralwhite;
+        text-align: center;
+        padding: 10px;
+        text-decoration-line: underline;
+        font-size: large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+</style>
+<body>
+<h2>Job Registration Form</h2>
+<form action="submit.php" method="post">
+  <label for="firstname">First Name</label>
+  <input type="text" id="firstname" name="firstname" required><br><br>
+  <label for="lastname">Last Name</label>
+  <input type="text" id="lastname" name="lastname" required><br><br>
+  <label for="email">Email</label>
+  <input type="email" id="email" name="email" required><br><br>
+  <label for="phone">Phone</label>
+  <input type="text" id="phone" name="phone"><br><br>
+  <label for="city">City</label>
+  <input type="text" id="city" name="city"><br><br>
+  <label for="currentstudying">Current Studying/Last Studied</label>
+  <input type="text" id="currentstudying" name="currentstudying"><br><br>
+  <label for="jobtitle">Job Title</label>
+  <input type="text" id="jobtitle" name="jobtitle" required><br><br>
+  <label for="description">Description</label><br>
+  <textarea id="description" name="description" cols="50" rows="10"></textarea><br><br>
+  <label for="resume">Resume/CV</label>
+  <input type="file" id="resume" name="resume"><br><br>
+  <label for="message">Additional Message</label><br>
+  <textarea id="message" name="message" cols="50" rows="10"></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

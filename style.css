@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgba(254, 247, 254, 0.157);
+  }
+  header {
+    background-color: white;
+    text-decoration: underline;
+    padding: 10px;
+    text-align: center;
+    max-width: 1000%;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    color: rgb(67, 11, 70);
+    
+  }
+  .no-dots{
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  h2 {
+    color: #36182dcd;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: unset;
+  }
+  h1{
+    color: black;
+    text-shadow: #fefdfe00;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+  }
+  h3{
+    color: rgb(183, 24, 154);
+    text-decoration: underline;
+    text-transform: capitalize;
+  }
+  p {
+    margin-top: 5px;
+  }
+  .logo {
+    max-width: 1000px;
+    display: block;
+
+  }
+  .nav-left {
+    text-align: left;
+    float: left;
+  }
+  .nav-left a {
+    background-color: white;
+    color: #76147df4;
+    text-decoration: black;
+    text-decoration-line: underline;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 10px; 
+  }
+  .nav-right {
+    text-align: right;
+    float: right;
+  }
+  .nav-right a {
+    background-color: white;
+    color: #76147df4;
+    text-decoration: black;
+    text-decoration-line: underline;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px; 
+  }
+  .center{
+    text-align: center;
+  }
+  .job{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid black;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+  }
+  .apply-button a {
+    background-color: #fffbfb19;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    font-language-override: initial;
+    }
+    .description{
+      font-family: sans-serif;
+      text-align: left;
+    }
+    .nav-left{
+      list-style-type: none;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration-color: none;
+    }
+    .details nav-left{
+      background-color: #f9f9f9;
+      padding: 20px;
+      max-width: 600px;
+    }
+  footer {
+    background-color: seashell;
+    padding: 10px;
+    max-width: 100%;
+  }
